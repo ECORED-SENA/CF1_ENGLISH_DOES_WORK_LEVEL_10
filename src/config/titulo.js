@@ -1,1 +1,1 @@
-module.exports = 'How is going to be everything like?'
+module.exports = 'How is everything going to be like?'

@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      '<span1><em>How is going to be everything like?</em></span1><br><span>¿Cómo va a ser todo?</span>',
+      '<span1><em>How is everything going to be like?</em></span1><br><span>¿Cómo va a ser todo?</span>',
     descripcionCurso:
       'Este componente será la introducción a los condicionales y el uso de verbos modales para hablar sobre arrepentimientos y situaciones que la gente desearía que no hubieran sucedido. El tipo de vocabulario estudiado estará relacionado con los planes sociales y laborales. También se trabajará la revisión de las formas de expresar opinión y los enlazadores para unir oraciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -314,8 +314,8 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

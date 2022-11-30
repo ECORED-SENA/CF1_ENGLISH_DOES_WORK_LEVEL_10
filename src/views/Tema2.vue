@@ -165,7 +165,7 @@
                 .row.justify-content-center.h-100.align-items-end
                   .col-10.pos1
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/curso/tema2/audio5.mp3')"
+                      :audio="require('@/assets/curso/tema2/audio52.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c1.mb-0 #[i #[b Second]]
@@ -480,7 +480,7 @@
                 .row.justify-content-center.h-100.align-items-end
                   .col-10.pos1
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/curso/tema2/audio47.mp3')"**Falta
+                      :audio="require('@/assets/curso/tema2/audio53.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c1.mb-0 #[i #[b Besides]]
@@ -628,7 +628,8 @@ export default {
       dialogo: [
         {
           personaje: 'Anne',
-          textoIng: 'I *** have liked to visit other countries.',
+          textoIng:
+            '<em>I</em> *** <em>have liked to visit other countries.</em>',
           textoEsp: 'Me habría gustado visitar otros países.',
           audio: require('@/assets/curso/tema2/Anne1.mp3'),
           palabra: 'would',
@@ -636,7 +637,7 @@ export default {
         {
           personaje: 'Jim',
           textoIng:
-            ' If you had learned Spanish, you *** have traveled to South America.',
+            '<em>If you had learned Spanish, you</em> *** <em>have traveled to South America.</em>',
           textoEsp:
             'Si hubieras aprendido español, podrías haber viajado a Sudamérica.',
           audio: require('@/assets/curso/tema2/Jim1.mp3'),
@@ -644,7 +645,8 @@ export default {
         },
         {
           personaje: 'Anne',
-          textoIng: 'I know. But *** time I tried to start I was too busy.',
+          textoIng:
+            '<em>I know. But</em> *** <em>time I tried to start I was too busy.</em>',
           textoEsp:
             'Lo sé. Pero cada vez que trataba de comenzar estaba demasiado ocupada.',
           audio: require('@/assets/curso/tema2/Anne2.mp3'),
@@ -653,7 +655,7 @@ export default {
         {
           personaje: 'Jim',
           textoIng:
-            'Would you have studied a new language if you *** had the time?',
+            '<em>Would you have studied a new language if you</em> *** <em>had the time?</em>',
           textoEsp:
             '¿Habrías estudiado un nuevo idioma si hubieras tenido tiempo?',
           audio: require('@/assets/curso/tema2/Jim2.mp3'),
@@ -661,7 +663,8 @@ export default {
         },
         {
           personaje: 'Anne',
-          textoIng: 'Sure, I *** always wanted to know new cultures.',
+          textoIng:
+            '<em>Sure, I</em> *** <em>always wanted to know new cultures.</em>',
           textoEsp: 'Claro, siempre he querido conocer nuevas culturas.',
           audio: require('@/assets/curso/tema2/Anne3.mp3'),
           palabra: 'have',
@@ -669,7 +672,7 @@ export default {
         {
           personaje: 'Jim',
           textoIng:
-            'Well it is never too late. You *** have followed your dreams.',
+            '<em>Well it is never too late. You</em> *** <em>have followed your dreams.</em>',
           textoEsp: 'Bueno, nunca es tarde. Debes haber seguido tus sueños.',
           audio: require('@/assets/curso/tema2/Jim3.mp3'),
           palabra: 'must',

@@ -1,4 +1,4 @@
-# **How is going to be everything like?**
+# **How is everything going to be like?**
 
 ## **Enlace GitHubPages**
 

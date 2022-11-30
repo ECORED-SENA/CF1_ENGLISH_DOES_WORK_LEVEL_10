@@ -14,8 +14,7 @@
               img(src="@/assets/curso/tema1/img2.svg", style="width:350px").m-auto
           .col
             Traduccion.color-acento-botones(:dialogo="traduccion1")
-        h3.text-center.txt-c1 #[i Conditionals]
-        p.text-center.mb-4 Veamos algunos ejemplos considerando también los condicionales reales trabajados en cursos anteriores:
+        h3.text-center.txt-c1.mb-5 #[i Conditionals]
         .row.mb-4
           .col-12.bg-c5.p-5
             .row.align-items-center.justify-content-end
@@ -203,7 +202,7 @@
           .tarjeta.color-primario.p-4(titulo="<em>Were supposed to</em>")
             .row
               .col-12
-                h4 #[i Was supposed to]
+                h4 #[i Were supposed to]
               .col-lg-8
                 Traduccion.color-acento-botones(:dialogo="traduccion14")
                 Audio.color-secundario.mx-auto(
@@ -294,7 +293,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>First conditional, also known as second conditional in some books, will need a conjugation of one sentence in present simple and the other in future.<br><br><ol><li>● If I have money, I´ll go to the bank to make a deposit.</li><ol></em>',
+            '<em>First conditional, also known as second conditional in some books, will need a conjugation of one sentence in present simple and the other in future.<br><br><ol><li>● If I have money, I&apos;ll go to the bank to make a deposit.</li><ol></em>',
           textoEsp:
             'El primer condicional, también conocido como segundo condicional en algunos libros, necesitará la conjugación de una oración en presente simple y la otra en futuro.<br><br><ol><li>● Sí tengo dinero, yo iré al banco y lo consignaré.</li><ol>',
         },
@@ -394,9 +393,9 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>To express an action in the past that was meant to do in the future, we can use expressions such as “was supposed to” and “were supposed to”; it is sometimes clear to post the result of the action, for instance: “I was supposed to come on time, but I did not.” “They were supposed to do it once, but it took them more than three times.” Now we are going to learn some of these expressions:</em>',
+            '<em>To express an action in the past that was meant to do in the future, we can use expressions such as “was supposed to” and “were supposed to”; it is sometimes clear to post the result of the action, for instance: “I was supposed to come on time, but I did not”. “They were supposed to do it once, but it took them more than three times”. Now we are going to learn some of these expressions:</em>',
           textoEsp:
-            'Para expresar una acción en el pasado que se suponía que se debía hacer en el futuro, podemos usar expresiones como “<em>was supposed to</em>” y “<em>were supposed to</em>”; a veces es claro publicar el resultado de la acción, por ejemplo: “<em>I was supposed to come on time, but I did not</em>.” (“Se suponía que debía venir a tiempo, pero no lo hice”), “<em>They were supposed to do it once, but it took them more than three times</em>.” (“Se suponía que lo harían una vez, pero les tomó más de tres veces”). Ahora vamos a aprender algunas de estas expresiones:',
+            'Para expresar una acción en el pasado que se suponía que se debía hacer en el futuro, podemos usar expresiones como “<em>was supposed to</em>” y “<em>were supposed to</em>”; a veces es claro publicar el resultado de la acción, por ejemplo: “<em>I was supposed to come on time, but I did not</em>”. (“Se suponía que debía venir a tiempo, pero no lo hice”), “<em>They were supposed to do it once, but it took them more than three times</em>”. (“Se suponía que lo harían una vez, pero les tomó más de tres veces”). Ahora vamos a aprender algunas de estas expresiones:',
         },
       ],
     },
@@ -455,7 +454,7 @@ export default {
         {
           personaje: 'Tom',
           textoIng:
-            'Hey, Sam, I am *** trouble with my email account. What can I do?',
+            '<em>Hey, Sam, I am</em> *** <em>trouble with my email account. What can I do?</em>',
           textoEsp:
             'Hey, Sam, estoy teniendo algunos problemas con mi cuenta, ¿qué puedo hacer?',
           audio: require('@/assets/curso/tema1/Tom1.mp3'),
@@ -463,7 +462,7 @@ export default {
         },
         {
           personaje: 'Sam',
-          textoIng: 'Did you try to *** your account?',
+          textoIng: '<em>Did you try to</em> *** <em>your account?</em>',
           textoEsp: '¿Intentaste restablecer tu cuenta?',
           audio: require('@/assets/curso/tema1/Sam1.mp3'),
           palabra: 'reset',
@@ -471,7 +470,7 @@ export default {
         {
           personaje: 'Tom',
           textoIng:
-            'I did, but it didn&apos;t work. I think I *** have tried writing an email to the support center.',
+            '<em>I did, but it didn&apos;t work. I think I</em> *** <em>have tried writing an email to the support center.</em>',
           textoEsp:
             'Lo hice, pero no funcionó. Creo que debería haber intentado escribir un correo electrónico al centro de soporte.',
           audio: require('@/assets/curso/tema1/Tom2.mp3'),
@@ -479,14 +478,16 @@ export default {
         },
         {
           personaje: 'Sam',
-          textoIng: 'Maybe you should have done that from the beginning.',
+          textoIng:
+            '<em>Maybe you should have done that from the beginning.</em>',
           textoEsp: 'Quizás deberías haberlo hecho desde el principio.',
           audio: require('@/assets/curso/tema1/Sam2.mp3'),
           palabra: '',
         },
         {
           personaje: 'Tom',
-          textoIng: 'I agree. I will write the email as soon as I *** home.',
+          textoIng:
+            '<em>I agree. I will write the email as soon as I</em> *** <em>home.</em>',
           textoEsp:
             'Estoy de acuerdo. Escribiré el correo tan pronto como llegue a casa.',
           audio: require('@/assets/curso/tema1/Tom3.mp3'),
@@ -494,7 +495,8 @@ export default {
         },
         {
           personaje: 'Sam',
-          textoIng: 'That sounds good. Let me know when the problem is fixed.',
+          textoIng:
+            '<em>That sounds good. Let me know when the problem is fixed.</em>',
           textoEsp:
             'Eso suena bien. Déjame saber cuando se solucione el problema.',
           audio: require('@/assets/curso/tema1/Sam3.mp3'),
