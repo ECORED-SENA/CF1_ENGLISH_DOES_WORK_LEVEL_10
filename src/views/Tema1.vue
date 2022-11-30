@@ -283,7 +283,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>Zero conditional, also known as first conditional in some books, will need a conjugation of both sentences in present:<br><br><ol><li>● If I have money, I go to the doctor.</li></ol></em>',
+            '<em>Zero conditional, also known as first conditional in some books, will need a conjugation of both sentences in present:<br><br><ol><li>● If I have money, I&apos;ll go to the doctor.</li></ol></em>',
           textoEsp:
             '<em>Zero conditional</em>, también conocido como <em>first conditional</em> en algunos libros, necesitará una conjugación de ambas oraciones en presente:<br><br><ol><li>● Si tengo dinero, voy al médico.</li></ol>',
         },
@@ -313,7 +313,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>Third conditional will need a conjugation of one sentence in past and the other one with “would have” plus the verb. Please, consider this conditional belongs to the unreal ones.<br><br><ol><li>● If I had had money, I would have gone to the doctor (I do not have any money and now there is no chance to go to the doctor.</li></ol></em>',
+            '<em>Third conditional will need a conjugation of one sentence in past and the other one with “would have” plus the verb. Please, consider this conditional belongs to the unreal ones.<br><br><ol><li>● If I had had money, I would have gone to the doctor (I do not have any money and now there is no chance to go to the doctor).</li></ol></em>',
           textoEsp:
             'El tercer condicional necesitará la conjugación de una oración en pasado y la otra con “<em>would have</em>” más el verbo. Por favor, considere que este condicional pertenece a los irreales.<br><br><ol><li>● Si hubiera tenido dinero, habría ido al médico (no tengo dinero y ahora no hay posibilidad de ir al médico).</li></ol>',
         },

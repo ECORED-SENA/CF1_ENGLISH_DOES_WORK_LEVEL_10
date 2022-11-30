@@ -309,8 +309,8 @@
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c1.mb-0 #[i #[b At the end]]
-                    p.text-center.text-small #[i We hope she burns in hell at the end.]
-                    p.text-center.text-small Esperamos que arda en el infierno al final.
+                    p.text-center.text-small #[i We hope they burn in hell at the end.]
+                    p.text-center.text-small Esperamos que ardan en el infierno al final.
     .row.bg-c44
       .col-12.p-5
         .row.justify-content-center
