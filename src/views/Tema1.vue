@@ -2,25 +2,26 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 #[i Regrets]
     .row.bg-c4
       .col-12.px-5.pt-5
         .row.mb-4
-          .col-2.d-none.d-lg-block
+          .col-2.d-none.d-lg-block(data-aos="fade-right")
             figure
               img(src="@/assets/curso/tema1/img2.svg", style="width:350px").m-auto
-          .col
+          .col(data-aos="fade-left")
             Traduccion.color-acento-botones(:dialogo="traduccion1")
-        h3.text-center.txt-c1.mb-5 #[i Conditionals]
+        h4.text-center.txt-c1.mb-5(data-aos="fade-up") #[i Conditionals]
         .row.mb-4
           .col-12.bg-c5.p-5
             .row.align-items-center.justify-content-end
               .col-lg-9.fig-p3.bg-c2(style="z-index:1")
                 .row
-                  .col-xl-10.p-4
+                  .col-xl-10.p-4(data-aos="fade-right")
                     SlyderE(indicadores="derecha")
                       .row
                         .col-lg-4.mb-4.mb-lg-0
@@ -28,7 +29,7 @@
                             img(src='@/assets/curso/tema1/img1.png', style="width: 250px").m-auto
                         .col-lg-8
                           Traduccion.color-acento-botones(:dialogo="traduccion2")
-                          Audio.color-secundario.mb-4.mx-auto(
+                          Audio.color-primario.mb-4.mx-auto(
                             :audio="require('@/assets/curso/tema1/audio1.mp3')"
                             @audio-hover="mostrarIndicadorAudio = false"
                           )
@@ -38,7 +39,7 @@
                             img(src='@/assets/curso/tema1/img2.png', style="width: 250px").m-auto
                         .col-lg-8
                           Traduccion.color-acento-botones(:dialogo="traduccion3")
-                          Audio.color-secundario.mb-4.mx-auto(
+                          Audio.color-primario.mb-4.mx-auto(
                             :audio="require('@/assets/curso/tema1/audio2.mp3')"
                             @audio-hover="mostrarIndicadorAudio = false"
                           )
@@ -48,7 +49,7 @@
                             img(src='@/assets/curso/tema1/img3.png', style="width: 250px").m-auto
                         .col-lg-8
                           Traduccion.color-acento-botones(:dialogo="traduccion4")
-                          Audio.color-secundario.mb-4.mx-auto(
+                          Audio.color-primario.mb-4.mx-auto(
                             :audio="require('@/assets/curso/tema1/audio3.mp3')"
                             @audio-hover="mostrarIndicadorAudio = false"
                           )
@@ -58,31 +59,31 @@
                             img(src='@/assets/curso/tema1/img4.png', style="width: 250px").m-auto
                         .col-lg-8
                           Traduccion.color-acento-botones(:dialogo="traduccion5")
-                          Audio.color-secundario.mb-4.mx-auto(
+                          Audio.color-primario.mb-4.mx-auto(
                             :audio="require('@/assets/curso/tema1/audio4.mp3')"
                             @audio-hover="mostrarIndicadorAudio = false"
                           )
-              .col-lg-3.d-none.d-xl-block(style="z-index:2")
+              .col-lg-3.d-none.d-xl-block(style="z-index:2")(data-aos="fade-left")
                 figure
                   img(src="@/assets/curso/tema1/img3.svg", style="width:300px").m-auto
-        p.mb-0 #[i.txt-c1 After that, we have a context around the conditionals; however, to remember, the third conditional is used to imagine how the past could have been different. ] #[span.txt-c2 / Después de eso, tenemos un contexto en torno a los condicionales; sin embargo, para recordar, el tercer condicional se usa para imaginar cómo el pasado podría haber sido diferente.]
+        p.mb-5.mb-lg-0(data-aos="fade-up") #[i.txt-c1 After that, we have a context around the conditionals; however, to remember, the third conditional is used to imagine how the past could have been different. ] #[span.txt-c2 / Después de eso, tenemos un contexto en torno a los condicionales; sin embargo, para recordar, el tercer condicional se usa para imaginar cómo el pasado podría haber sido diferente.]
     Separador
     #t_1_1
     .titulo-segundo.color-acento-contenido
       h2 1.1 #[i Third conditional]
     .row.mb-4
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         Traduccion.color-acento-botones(:dialogo="traduccion6")
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[i #[b Figure 1]. Third conditional structure]
         figure
           img(src="@/assets/curso/tema1/img4.svg", style="width:500px").m-auto
           figcaption.mt-2 #[i Note. Third conditional usage for imaginary situations in the past]
-    p.mb-5 #[i.txt-c1 Third conditional can be written in positive and negative sentences. Let’s see some examples:] #[span.txt-c2 / El tercer condicional se puede escribir en oraciones positivas y negativas. Veamos algunos ejemplos:]
+    p.mb-5(data-aos="fade-down") #[i.txt-c1 Third conditional can be written in positive and negative sentences. Let’s see some examples:] #[span.txt-c2 / El tercer condicional se puede escribir en oraciones positivas y negativas. Veamos algunos ejemplos:]
     .row.bg-c6
       .col-12.p-4
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-down")
           .col-12.my-4
             h4.text-center #[i Examples third conditional]
           .col-10.col-md-8.col-lg.m-2.bg-c7.p-4
@@ -120,18 +121,18 @@
     .titulo-segundo.color-acento-contenido
       h2 #[i 1.2 Modal verbs in the past (should have, could have, might have, must have, have to)]
     .row.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema1/img8.png", style="width:450px").m-auto
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         Traduccion.color-acento-botones(:dialogo="traduccion7")
-    TabsC.color-acento-botones
+    TabsC.color-acento-botones(data-aos="fade-up")
       .py-3.py-md-4(titulo="<em>Could have</em>")
         .row.p-4
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/img9.png", style="width:350px").m-auto
-            Audio.color-secundario.mt-4.mx-auto(
+            Audio.color-primario.mt-4.mx-auto(
               :audio="require('@/assets/curso/tema1/audio8.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
@@ -143,7 +144,7 @@
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/img10.png", style="width:350px").m-auto
-            Audio.color-secundario.mt-4.mx-auto(
+            Audio.color-primario.mt-4.mx-auto(
               :audio="require('@/assets/curso/tema1/audio9.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
@@ -155,7 +156,7 @@
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/img11.png", style="width:350px").m-auto
-            Audio.color-secundario.mt-4.mx-auto(
+            Audio.color-primario.mt-4.mx-auto(
               :audio="require('@/assets/curso/tema1/audio10.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
@@ -167,7 +168,7 @@
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/img12.png", style="width:350px").m-auto
-            Audio.color-secundario.mt-4.mx-auto(
+            Audio.color-primario.mt-4.mx-auto(
               :audio="require('@/assets/curso/tema1/audio11.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
@@ -179,7 +180,7 @@
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/img13.png", style="width:350px").m-auto
-            Audio.color-secundario.mt-4.mx-auto(
+            Audio.color-primario.mt-4.mx-auto(
               :audio="require('@/assets/curso/tema1/audio12.mp3')"
               @audio-hover="mostrarIndicadorAudio = false"
             )
@@ -193,19 +194,19 @@
     .row.bg-c10.mb-5
       .col-12.p-5
         .row.mb-5
-          .col-lg-5.mb-4.mb-lg-0
+          .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src="@/assets/curso/tema1/img14.png", style="width:450px").m-auto
-          .col-lg-7
+          .col-lg-7(data-aos="fade-left")
             Traduccion.color-acento-botones(:dialogo="traduccion13")
-        TabsA.color-acento-botones
+        TabsA.color-acento-botones(data-aos="fade-down")
           .tarjeta.color-primario.p-4(titulo="<em>Were supposed to</em>")
             .row
               .col-12
                 h4 #[i Were supposed to]
               .col-lg-8
                 Traduccion.color-acento-botones(:dialogo="traduccion14")
-                Audio.color-secundario.mx-auto(
+                Audio.color-primario.mx-auto(
                   :audio="require('@/assets/curso/tema1/audio13.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
@@ -218,7 +219,7 @@
                 h4 #[i Was supposed to]
               .col-lg-8
                 Traduccion.color-acento-botones(:dialogo="traduccion15")
-                Audio.color-secundario.mx-auto(
+                Audio.color-primario.mx-auto(
                   :audio="require('@/assets/curso/tema1/audio14.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
@@ -231,7 +232,7 @@
                 h4 #[i Were going to]
               .col-lg-8
                 Traduccion.color-acento-botones(:dialogo="traduccion16")
-                Audio.color-secundario.mx-auto(
+                Audio.color-primario.mx-auto(
                   :audio="require('@/assets/curso/tema1/audio15.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
@@ -244,15 +245,15 @@
                 h4 #[i Was going to]
               .col-lg-8
                 Traduccion.color-acento-botones(:dialogo="traduccion17")
-                Audio.color-secundario.mx-auto(
+                Audio.color-primario.mx-auto(
                   :audio="require('@/assets/curso/tema1/audio16.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
               .col-lg-4.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/tema1/img18.png", style="width:450px").m-auto
-    p.mb-5 #[i.txt-c1 Now, we are going to practice. Listen to each audio, then complete the missing word. Review again if it is necessary. Let’s go:] #[span.txt-c2 / Ahora, vamos a practicar. Escuche cada audio, luego complete la palabra que falta. Vuelva a revisar si es necesario. Vamos:]
-    Dialogo.color-acento-botones.mb-5(:dialogo="dialogo")
+    p.mb-5(data-aos="fade-up") #[i.txt-c1 Now, we are going to practice. Listen to each audio, then complete the missing word. Review again if it is necessary. Let’s go:] #[span.txt-c2 / Ahora, vamos a practicar. Escuche cada audio, luego complete la palabra que falta. Vuelva a revisar si es necesario. Vamos:]
+    Dialogo.color-acento-botones.mb-5(:dialogo="dialogo")(data-aos="fade-right")
       template(#nombre-actividad) Escuche los audios y complete los espacios en blanco de cada una de las frases arrastrando el término correcto.
       template(#titulo-actividad) #[i Regrets]
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.

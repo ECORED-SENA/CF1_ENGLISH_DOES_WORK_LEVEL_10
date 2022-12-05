@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -11,10 +11,10 @@
     .row.bg-c1.mb-5
       .col-12.px-5.pt-5
         .row.mb-4
-          .col-lg-3
+          .col-lg-3(data-aos="fade-right")
             figure
               img(src="@/assets/curso/intro/img1.png", style="width:350px").m-auto
-          .col-lg-9
+          .col-lg-9(data-aos="fade-left")
             .row
               figure.fig-p1
                 img(src="@/assets/curso/intro/img2.svg")
@@ -23,12 +23,12 @@
               figure.fig-p2
                 img(src="@/assets/curso/intro/img3.svg")
         .row.mb-4.mb-lg-0
-          .col-12
+          .col-12(data-aos="fade-up")
             figure
               .video
-                iframe(width="560" height="315" src="https://www.youtube.com/embed/i9SA1ApfIGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/CXScNJ2tTpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center
-      .col-lg-10.p-4.bg-c3
+      .col-lg-10.p-4.bg-c3(data-aos="fade-right")
         .row.align-items-center
           .col-lg-2.mb-4.mb-lg-0
             figure
