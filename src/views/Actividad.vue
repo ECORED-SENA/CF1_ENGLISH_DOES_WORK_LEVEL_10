@@ -10,8 +10,8 @@
             img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 #[i How is going to be everything like?] / ¿Cómo será el futuro?
-        p.mb-4 Reforzar conocimientos de las temáticas involucradas en el componente formativo denominado: #[i How is going to be everything like?]
+          h2 #[i How is everything going to be like?] / ¿Cómo va a ser todo?
+        p.mb-4 Reforzar conocimientos de las temáticas involucradas en el componente formativo denominado: #[i How is everything going to be like?]
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

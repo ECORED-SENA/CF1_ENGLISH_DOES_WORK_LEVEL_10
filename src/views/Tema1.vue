@@ -284,7 +284,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>Zero conditional, also known as first conditional in some books, will need a conjugation of both sentences in present:<br><br><ol><li>● If I have money, I&apos;ll go to the doctor.</li></ol></em>',
+            '<em>Zero conditional, also known as first conditional in some books, will need a conjugation of both sentences in present:<br><br><ol><li>● If I have money, I go to the doctor.</li></ol></em>',
           textoEsp:
             '<em>Zero conditional</em>, también conocido como <em>first conditional</em> en algunos libros, necesitará una conjugación de ambas oraciones en presente:<br><br><ol><li>● Si tengo dinero, voy al médico.</li></ol>',
         },
@@ -296,7 +296,7 @@ export default {
           textoIng:
             '<em>First conditional, also known as second conditional in some books, will need a conjugation of one sentence in present simple and the other in future.<br><br><ol><li>● If I have money, I&apos;ll go to the bank to make a deposit.</li><ol></em>',
           textoEsp:
-            'El primer condicional, también conocido como segundo condicional en algunos libros, necesitará la conjugación de una oración en presente simple y la otra en futuro.<br><br><ol><li>● Sí tengo dinero, yo iré al banco y lo consignaré.</li><ol>',
+            'El primer condicional, también conocido como segundo condicional en algunos libros, necesitará la conjugación de una oración en presente simple y la otra en futuro.<br><br><ol><li>● Si tengo dinero, yo iré al banco y lo consignaré.</li><ol>',
         },
       ],
     },
@@ -314,7 +314,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>Third conditional will need a conjugation of one sentence in past and the other one with “would have” plus the verb. Please, consider this conditional belongs to the unreal ones.<br><br><ol><li>● If I had had money, I would have gone to the doctor (I do not have any money and now there is no chance to go to the doctor).</li></ol></em>',
+            '<em>Third conditional will need a conjugation of one sentence in past and the other one with “would have” plus the verb. Please, consider this conditional belongs to the unreal ones.<br><br><ol><li>● If I had money, I would have gone to the doctor (I do not have any money and now there is no chance to go to the doctor).</li></ol></em>',
           textoEsp:
             'El tercer condicional necesitará la conjugación de una oración en pasado y la otra con “<em>would have</em>” más el verbo. Por favor, considere que este condicional pertenece a los irreales.<br><br><ol><li>● Si hubiera tenido dinero, habría ido al médico (no tengo dinero y ahora no hay posibilidad de ir al médico).</li></ol>',
         },
@@ -376,7 +376,7 @@ export default {
           textoIng:
             '<em>This modal is used as a way to say we wish to have done something but it was not possible because something happened.<br><br><ol><li>● I would have danced with you, but I cannot dance vallenato well.</li><li>● We would have bought the flat, but we didn&apos;t have any money.</li></ol></em>',
           textoEsp:
-            'Este modal se usa como una forma de decir que deseamos haber hecho algo, pero no fue posible porque algo sucedió.<br><br><ol><li>● Hubiese bailado contigo, pero no soy buen bailarín.</li><li>● Hubiéramos comprado el apartamento, pero no teníamos el dinero.</li></ol>',
+            'Este modal se usa como una forma de decir que deseamos haber hecho algo, pero no fue posible porque algo sucedió.<br><br><ol><li>● Hubiese bailado contigo, pero no sé bailar bien el vallenato.</li><li>● Hubiéramos comprado el apartamento, pero no teníamos el dinero.</li></ol>',
         },
       ],
     },
@@ -457,7 +457,7 @@ export default {
           textoIng:
             '<em>Hey, Sam, I am</em> *** <em>trouble with my email account. What can I do?</em>',
           textoEsp:
-            'Hey, Sam, estoy teniendo algunos problemas con mi cuenta, ¿qué puedo hacer?',
+            'Hey, Sam, estoy teniendo algunos problemas con mi cuenta de correo electrónico, ¿qué puedo hacer?',
           audio: require('@/assets/curso/tema1/Tom1.mp3'),
           palabra: 'having',
         },

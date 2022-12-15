@@ -80,7 +80,7 @@
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b It’s time to get the ball rolling!]]
-                    p.text-center #[i That means it is time to start.]
+                    p.text-center #[i It means it is time to start.]
               .tarjeta.bg-c20
                 .row.justify-content-center.h-100.align-items-end
                   .col-10.pos1

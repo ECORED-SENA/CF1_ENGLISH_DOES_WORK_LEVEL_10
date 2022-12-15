@@ -136,7 +136,8 @@ export default {
       referencia:
         'Kempson, R. (1988). Grammar and conversational principles. <em>Linguistics: the Cambridge survey, 2, p.139-163</em>.',
       tipo: 'Artículo',
-      link: 'https://eric.ed.gov/?id=EJ1287782',
+      link:
+        'https://books.google.com.co/books?hl=tl&lr=&id=qGs9PLMQiXsC&oi=fnd&pg=PA139&ots=e41eg9CnPf&sig=murNa-UCVqPG-wxFuL0tOyE7WnU&redir_esc=y#v=onepage&q&f=false',
     },
     {
       tema: '<em>Third conditional</em>',
@@ -333,11 +334,6 @@ export default {
       },
       {
         nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
