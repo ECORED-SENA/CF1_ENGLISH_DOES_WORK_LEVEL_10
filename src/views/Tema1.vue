@@ -404,7 +404,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>“<b>Were supposed to</b>” is used to talk about things we meant to do in the past but we did not. For instance: “They were supposed to pick you up, but they could not.” That sentence means it was their commitment to do so, but they did not have the chance to do that.<br><br><ol><li>● We were supposed to study, but our friends came and we did not review anything.</li></ol></em>',
+            '<em>“<b>Were supposed to</b>” is used to talk about things we meant to do in the past but we did not. For instance: “They were supposed to pick you up, but they could not”. That sentence means it was their commitment to do so, but they did not have the chance to do that.<br><br><ol><li>● We were supposed to study, but our friends came and we did not review anything.</li></ol></em>',
           textoEsp:
             '“<em><b>Were supposed to</b></em>” se usa para hablar de cosas que quisimos hacer en el pasado, pero no lo hicimos. Por ejemplo: “Se suponía que iban a recogerte, pero no pudieron”. Esa oración significa que era su compromiso hacerlo, pero ellos no tuvieron la oportunidad de hacerlo.<br><br><ol><li>● Se suponía que íbamos a estudiar, pero vinieron nuestros amigos y no repasamos nada.</li></ol></em>',
         },
@@ -414,7 +414,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>“<b>Was supposed to</b>” is used to talk about things me or somebody meant to do in the past but he/she did not. For instance: “I was supposed to pick you up but I could not.” That sentence means it was my commitment to do so, but I did not have the chance to do that.<br><br><ol><li>● I was supposed to start working at 9, but my boss called me to say I needed to start earlier.</li></ol></em>',
+            '<em>“<b>Was supposed to</b>” is used to talk about things me or somebody meant to do in the past but he/she did not. For instance: “I was supposed to pick you up but I could not”. That sentence means it was my commitment to do so, but I did not have the chance to do that.<br><br><ol><li>● I was supposed to start working at 9, but my boss called me to say I needed to start earlier.</li></ol></em>',
           textoEsp:
             '“<em><b>Was supposed to</em></b>” se usa para hablar de cosas que yo o alguien quería hacer en el pasado, pero no se hizo. Por ejemplo: “Se suponía que debía recogerte, pero no pude”. Esa oración significa que era mi compromiso hacerlo, pero no tuve la oportunidad de hacerlo.<br><br><ol><li>● Se suponía que debía empezar a trabajar a las 9, pero mi jefe me llamó para decirme que tenía que empezar antes.</li></ol></em>',
         },
@@ -424,7 +424,7 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em>“<b>Were going to</b>” is used to talk about things we meant to do in the past or that we planned, at least. For instance: “They were going to study English in England, but they received a deal to visit Canada.”<br><br><ol><li>● We were going to travel to England in 1996.</li></ol></em>',
+            '<em>“<b>Were going to</b>” is used to talk about things we meant to do in the past or that we planned, at least. For instance: “They were going to study English in England, but they received a deal to visit Canada”.<br><br><ol><li>● We were going to travel to England in 1996.</li></ol></em>',
           textoEsp:
             '“<em><b>Were going to</em></b>” se usa para hablar de cosas que quisimos hacer en el pasado o que al menos planeamos. Por ejemplo: “Iban a estudiar inglés en Inglaterra, pero recibieron un trato para visitar Canadá”.<br><br><ol><li>● Íbamos a viajar a Inglaterra en 1996.</li></ol></em>',
         },
